@@ -1,7 +1,7 @@
-import GbifOccurrences from "./components/GbifOccurrences";
+import GbifOccurrences from "./components/GbifOccurrences.tsx";
 import styled from "styled-components";
 import { useEffect, useState } from "react";
-import type { Occurrence } from "./interfaces/Occurrence";
+import type { Occurrence } from "./interfaces/Occurrence.ts";
 
 const ParentDiv = styled.div`
   width: 80vw;

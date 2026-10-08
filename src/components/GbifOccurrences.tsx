@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import type { Occurence } from "../interfaces/Occurrence";
+import type { Occurrence } from "../interfaces/Occurrence";
 
-const AllOccurencesDiv= styled.div`
+const AllOccurrencesDiv = styled.div`
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;

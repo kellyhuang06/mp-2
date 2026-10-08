@@ -1,4 +1,4 @@
-export interface Occurence {
+export interface Occurrence {
     key: number;
     scientificName: string;
     kingdom?: string;
