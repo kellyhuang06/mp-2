@@ -8,6 +8,19 @@ const ParentDiv = styled.div`
   margin: auto;
   border: 5px darkgreen solid;
 `;
+const Header = styled.header`
+  background-color: darkgreen;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  border-bottom: 5px solid #a8d5a2;
+`;
+
+const HeaderTitle = styled.h1`
+  margin: 0;
+  font-size: 2rem;
+  letter-spacing: 1px;
+`;
 
 export default function App() {
   // useState Hook to store data.
@@ -29,6 +42,9 @@ export default function App() {
 
   return (
       <ParentDiv>
+        <Header>
+          <HeaderTitle>GBIF Occurrences</HeaderTitle>
+        </Header>
         <GbifOccurrences data={data} />
       </ParentDiv>
   );
